@@ -19,7 +19,7 @@ class Similarity
 			str = str.squeeze " "
 			str = str.strip
 			str = str.downcase
-			str = str.gsub /,|!|-|&|\./, str
+			str = str.gsub /,|!|-|&|\.|;|/, str
 			str
 		end
 end
